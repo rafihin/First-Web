@@ -1,0 +1,96 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+}
+
+.container-navbar {
+    background-color:#333;
+    width: 100%;
+    height: 15vh;
+}
+
+.Ul-Navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Li-Navbar {
+    list-style: none ;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.Li-Navbar:hover{
+    background-color: rgb(255, 115, 0);
+    transition: .05s ease-in-out;
+    transition-delay: .05s;
+    border-style: inset;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.Container-Content {
+    background-color:#333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.a-content {
+    background-color: white;
+    width: 480px;
+    color: rgb(255, 115, 0);
+    text-decoration: none;
+    font-size: 15px;
+    height: 280px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-style: inset;
+    border-radius: 100px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+
+.img-content {
+    width: 30%;
+    height: 70%;
+}
+
+.insta-content {
+    width: 30%;
+    height: 50%;
+}
+
+.wa-content {
+    width: 30%;
+    height: 50%;
+}
+
+.container-footer {
+    height: 15vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 15px;
+    color: white;
+}
